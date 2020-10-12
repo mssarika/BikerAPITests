@@ -31,3 +31,12 @@ Scenarios implemented
 3.List all the stations with empty slots
 4.Request with an invalid network endpoint
 5.User should recieve 'METHOD NOT ALLOWED' response when a POST request is send to the endpoint
+
+Source Code
+-------------
+This is a maven project, so the folder structure follows maven standards
+
+-All the feature files can be found in src/test/resources/Features folder
+-The runner class can be found in src/test/java/APITests folder
+-The Test step implementations can be found in src/main/java/TestSteps folder
+
